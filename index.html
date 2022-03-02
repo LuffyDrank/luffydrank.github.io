@@ -48,7 +48,7 @@
     color: pink;
   }
 }
-  }
+
         </style>
 
  </head>
@@ -57,26 +57,48 @@
         function showImg() {
             document.getElementById("Horny").style.display = "block";
             document.getElementById("NoHorny").style.display = "none";
-            document.getElementById("NoHorny2").style.display = "none";
-            document.getElementById("NoHorny3").style.display = "none";
-            document.getElementById("NoHorny4").style.display = "none";
-            document.getElementById("NoHorny5").style.display = "none";
         }
         function closeImg() {
             document.getElementById("Horny").style.display = "none";
             document.getElementById("NoHorny").style.display = "block";
-            document.getElementById("NoHorny2").style.display = "inline";
-            document.getElementById("NoHorny3").style.display = "inline";
-            document.getElementById("NoHorny4").style.display = "inline";
-            document.getElementById("NoHorny5").style.display = "inline";
+            document.getElementById("Bernardo").style.display = "none";
         }
+        function stopImg() {
+            document.getElementById("Horny").style.display = "none";
+            document.getElementById("NoHorny").style.display = "none";
+            document.getElementById("Bernardo").style.display = "none";
+        }
+        function bernardodance() {
+            document.getElementById("Horny").style.display = "none";
+            document.getElementById("NoHorny").style.display = "none";
+            document.getElementById("Bernardo").style.display = "block";
+        }
+
+
      </script>
      <h1 style="color: rgb(148, 36, 170)">You won't last even 10 seconds on bed with me</h1>
-      <button style="font-size: 50px; position:relative; left:40px; background-color: black"  onclick="showImg()">Sex time</button>
-      <button style="font-size: 50px; position:relative; left:150px; background-color: black" onclick="closeImg()">No horny</button>
+      <button style="font-size: 50px; position:relative; background-color: black"  onclick="showImg()">Sex time</button>
+      <button style="font-size: 50px; position:relative; left:45px; background-color: black"  onclick="stopImg()">Stop</button>
+      <button style="font-size: 50px; position:relative; left:95px; background-color: black" onclick="closeImg()">No horny</button>
+      <button style="font-size: 20px; position:relative; left: 120px; background-color: black" onclick="bernardodance()">Bernardo</button>
      <img alt="Lewd image"  id="Horny"    style="display: none" width="650" height="480" src="https://c.tenor.com/bLkaae5j5BIAAAAC/horny-anime.gif">
      <img alt="Lewd image"  id="NoHorny"  style="display: none; margin: 0%" width="650" height="480" src="https://c.tenor.com/vKx24Kp25s8AAAAM/happy-doge.gif">
+     <img alt="Lewd image"  id="Bernardo"  style="display: none; margin: 0%" width="650" height="480" src="https://c.tenor.com/y5KVwUHOv-0AAAAd/rei-rei-plush.gif">
      <div style="line-height: 0">
      </div>
+     <form action="" style="color: white">
+       <div hidden>
+      <label for="1">
+       <input id="1" type="radio" name="funny"> Small
+       </label>
+       <label for="2">
+       <input id="2" type="radio" name="funny"> Average
+      </label>
+      <label for="3">
+       <input id="3" type="radio" name="funny"> Big
+      </label>
+    </div>
+      <input hidden type="submit" style="font-size: 50px; background-color: black; color: white" value="Gay">
+     </form>
  </body>
 </html>
