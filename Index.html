@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" >
+ <head>
+        <meta charset="utf-8">
+        <title>Sexo?</title>
+        <style>
+            img {
+         margin:0;
+         padding:0;
+          border:0;
+         }
+        H1, button {
+    animation: color-change 3s infinite;
+  }
+  
+  @keyframes color-change {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+  }
+        </style>
+
+ </head>
+ <body style="background-color: black; line-height: 0px">
+     <script>
+        function showImg() {
+            document.getElementById("Horny").style.display = "block";
+            document.getElementById("NoHorny").style.display = "none";
+            document.getElementById("NoHorny2").style.display = "none";
+            document.getElementById("NoHorny3").style.display = "none";
+            document.getElementById("NoHorny4").style.display = "none";
+            document.getElementById("NoHorny5").style.display = "none";
+        }
+        function closeImg() {
+            document.getElementById("Horny").style.display = "none";
+            document.getElementById("NoHorny").style.display = "block";
+            document.getElementById("NoHorny2").style.display = "inline";
+            document.getElementById("NoHorny3").style.display = "inline";
+            document.getElementById("NoHorny4").style.display = "inline";
+            document.getElementById("NoHorny5").style.display = "inline";
+        }
+     </script>
+     <h1 style="color: rgb(148, 36, 170)">You won't last even 10 seconds on bed with me</h1>
+      <button style="font-size: 50px; position:relative; left:40px; background-color: black"  onclick="showImg()">Sex time</button>
+      <button style="font-size: 50px; position:relative; left:150px; background-color: black" onclick="closeImg()">No horny</button>
+     <img alt="Lewd image"  id="Horny"    style="display: none" width="650" height="480" src="https://c.tenor.com/bLkaae5j5BIAAAAC/horny-anime.gif">
+     <img alt="Lewd image"  id="NoHorny"  style="display: none; margin: 0%" width="650" height="480" src="https://c.tenor.com/vKx24Kp25s8AAAAM/happy-doge.gif">
+     <div style="line-height: 0">
+     </div>
+ </body>
+</html>
