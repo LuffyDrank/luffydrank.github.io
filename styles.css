@@ -6,6 +6,6 @@ img {
   alt: Stupid image;
 }
 .content {
-  max-width: 750px;
-  margin: auto;
+  position: relative;
+  left: 20%;
 }
